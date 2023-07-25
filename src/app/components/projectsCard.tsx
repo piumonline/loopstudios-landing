@@ -3,11 +3,13 @@ import React from "react";
 interface ProjectsCardProps {
   mobile_imageUri: string;
   desktop_imageUri: string;
+  title: string;
 }
 
 const ProjectsCard: React.FC<ProjectsCardProps> = ({
   mobile_imageUri,
   desktop_imageUri,
+  title,
 }) => {
   return (
     <>
@@ -24,7 +26,7 @@ const ProjectsCard: React.FC<ProjectsCardProps> = ({
         </picture>
 
         <div className="absolute text-xl text-white bottom-4 left-6 whitespace-pre-line">
-          DEEP EARTH
+          {title}
         </div>
       </div>
     </>

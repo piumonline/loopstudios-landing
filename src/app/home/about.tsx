@@ -12,7 +12,7 @@ function About() {
           alt="hero"
           className="lg:w-8/12"
         />
-        <div className="p-4 px-4 lg:bg-white lg:w-3/6 lg:h-3/6 lg:absolute bottom-0 right-0 flex flex-col justify-center items-center">
+        <div className="p-4 px-4 lg:text-left lg:p-16 xl:p-24 lg:bg-white lg:w-3/6 lg:h-4/6 lg:absolute -bottom-6 right-0 flex flex-col justify-center items-center">
           <h1 className="text-3xl my-8 font-thin tracking-wide uppercase">
             The leader in Interactive VR
           </h1>

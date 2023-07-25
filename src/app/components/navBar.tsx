@@ -14,18 +14,16 @@ const NavBar = () => {
   ];
   let [open, setOpen] = useState(false);
 
-//   <div className="w-full top-8 right-0 bg-transparent z-10 text-white px-6 md:px-28 absolute left-0">
-
+  //   <div className="w-full top-8 right-0 bg-transparent z-10 text-white px-6 md:px-28 absolute left-0">
 
   return (
-    <div className={`w-full pt-6 right-0 z-10 text-white px-6 md:px-28 absolute left-0${
+    <div
+      className={`w-full pt-6 right-0 z-10 text-white px-6 md:px-28 absolute left-0${
         open ? " bg-black" : "bg-transparent"
       }`}
     >
       <div className="flex justify-between  md:items-center py-4 md:px-10">
-        <div className="font-bold text-2xl cursor-pointer">
-          loopstudio
-        </div>
+        <div className="font-bold text-2xl cursor-pointer">loopstudio</div>
 
         <div
           onClick={() => setOpen(!open)}

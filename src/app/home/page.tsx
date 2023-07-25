@@ -8,7 +8,7 @@ import NavBar from "../components/navBar";
 const page = () => {
   return (
     <main>
-      <NavBar/>
+      <NavBar />
       <Hero />
       <About />
       <Projects />
